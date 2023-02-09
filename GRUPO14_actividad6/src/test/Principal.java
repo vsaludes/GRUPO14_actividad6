@@ -1,6 +1,6 @@
 package test;
 
-public class Testing {
+public class Principal {
 
 	public static void main(String[] args) {
 		
