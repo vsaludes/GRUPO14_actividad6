@@ -22,14 +22,14 @@ public class Profesor extends Persona {
 	}
 
 	 /**
-     * {@inheritDoc}
+     *
      * 
      */
 	@Override
 	public String llamar(Persona p) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+		return this.getNombre() + " " + this.getApellido() + " llamando a " + p.getNombre() + " " + p.getApellido();
+		
+		}
 
 
 

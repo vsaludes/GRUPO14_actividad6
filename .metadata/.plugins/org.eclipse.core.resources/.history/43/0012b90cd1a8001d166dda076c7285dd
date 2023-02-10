@@ -1,0 +1,21 @@
+package plantilla;
+
+import persona.Persona;
+
+public class Profesor extends Persona {
+
+	public Profesor(String nombre, String apellido, String direccion, String telefono) {
+		super(nombre, apellido, direccion, telefono);
+		
+	}
+
+	@Override
+	public String llamar(Persona p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+
+}

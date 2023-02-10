@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="persona.Persona"/>
+    <fullyQualifiedTypeName name="plantilla.Alumno"/>
+    <fullyQualifiedTypeName name="plantilla.Administrativo"/>
+    <fullyQualifiedTypeName name="plantilla.Profesor"/>
+</qualifiedTypeNameHistroy>

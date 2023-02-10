@@ -1,0 +1,15 @@
+package plantilla;
+
+import persona.Persona;
+
+public class Profesor extends Persona {
+
+	public Profesor(String nombre, String apellido, String direccion, String telefono) {
+		super(nombre, apellido, direccion, telefono);
+		
+	}
+
+
+
+
+}

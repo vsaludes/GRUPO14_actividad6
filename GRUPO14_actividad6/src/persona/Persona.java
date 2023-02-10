@@ -1,6 +1,6 @@
 /**
  * Clase abstracta que representa una Persona.
- * @author Víctor
+ * @author Grupo XIV
  */
 package persona;
 
@@ -12,7 +12,10 @@ public abstract class Persona {
 	 *  <b>String direccion</b> Dirección de la persona<br>
 	 *  <b>String telefono</b> Teléfono de la persona
  	 */
-	private String nombre, apellido, direccion, telefono;
+	private String nombre;
+	private String apellido;
+	private String direccion;
+	private String telefono;
     
     /**
      * Constructor con todos los atributos de la persona
@@ -76,5 +79,11 @@ public abstract class Persona {
 	 */
 	public abstract String llamar(Persona p);
 
-	
+	/**
+	 * Método toString()
+	 * @return Una cadena de texto que combina el valor de los atributos nombre y apellido separados por un espacio.
+	 */
+	public String toString() {
+        return nombre + " " + apellido;
+    }
 }
