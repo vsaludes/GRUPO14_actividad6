@@ -86,4 +86,12 @@ public abstract class Persona {
 	public String toString() {
         return nombre + " " + apellido;
     }
+	
+	/**
+	 * Método abstracto que se especializa en cada subclase para devolver una cadena que indica el tipo de tarea que realiza cada perfil de persona. 
+	 * 
+	 * @return Una cadena que describe el trabajo realizado por la persona.
+	 */
+	public abstract String trabajar();
+
 }
