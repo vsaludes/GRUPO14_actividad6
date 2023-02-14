@@ -7,11 +7,13 @@ package persona;
 public abstract class Persona {
 	
 	/**
+	 *  <b>String nif</b> Nif de la persona<br>
 	 *  <b>String nombre</b> Nombre de la persona<br>
 	 *  <b>String apellido</b> Apellido de la persona<br>
 	 *  <b>String direccion</b> Dirección de la persona<br>
 	 *  <b>String telefono</b> Teléfono de la persona
  	 */
+	private String nif;
 	private String nombre;
 	private String apellido;
 	private String direccion;
@@ -19,18 +21,28 @@ public abstract class Persona {
     
     /**
      * Constructor con todos los atributos de la persona
+     * @param nif Nif de la persona
      * @param nombre Nombre de la persona
      * @param apellido Apellido de la persona
      * @param direccion Dirección de la persona
      * @param telefono Teléfono de la persona
      */
     
-	public Persona(String nombre, String apellido, String direccion, String telefono) {
+	public Persona(String nif, String nombre, String apellido, String direccion, String telefono) {
 		super();
+		this.nif = nif;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.direccion = direccion;
 		this.telefono = telefono;
+	}
+	
+	public String getNif() {
+		return nif;
+	}
+	
+	public void setNif (String nif) {
+		this.nif = nif;
 	}
 	
 	/**
